@@ -10,6 +10,12 @@ repositories {
     mavenCentral()
 }
 
+sourceSets {
+    main {
+        java.srcDir("src/core/java")
+    }
+}
+
 dependencies {
     implementation(kotlin("stdlib"))
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
