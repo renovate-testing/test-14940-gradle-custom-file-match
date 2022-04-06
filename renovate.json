@@ -6,7 +6,7 @@
   "automergeType": "pr",
   "prCreation": "immediate",
   "gradle": {
-     "fileMatch": ["Lib.kt"]
+     "fileMatch": ["^Lib.kt$"]
   }
 
 }
