@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>renovatebot/.github"],
+  "assignees": ["SilenLoc"],
+  "semanticCommitScope": "deps",
+  "automergeType": "pr",
+  "prCreation": "immediate",
+  "prHourlyLimit":100,
+  "gradle": {
+     "fileMatch": ["Lib.kt"]
+  }
+
+  
+}
