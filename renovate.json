@@ -5,7 +5,7 @@
   },
   "packageRules": [
     {
-      "matchPackagePatterns": ["^org\\.junit\\."],
+      "matchPackagePatterns": ["junit"],
       "groupName": "junit"
     }
   ]
