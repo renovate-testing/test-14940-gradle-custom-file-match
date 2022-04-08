@@ -2,5 +2,11 @@
   "enabledManagers": ["gradle"],
   "gradle": {
      "fileMatch": ["^Lib.kt$"]
-  }
+  },
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^org\\.junit\\."],
+      "groupName": "junit"
+    }
+  ]
 }
